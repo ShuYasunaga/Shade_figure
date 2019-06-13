@@ -141,6 +141,7 @@ def sun(height,time,ongitude,latitude,theta0_h,theta0_m,alpha0_h,alpha0_m,alpha1
 
 
 if __name__ == '__main__':
+    #緯度経度、時間情報以外は理科年表を参照する必要あり。
     longitude=139.44
     latitude=35.39
 
@@ -237,6 +238,6 @@ if __name__ == '__main__':
 
 
 
-        #plt.text(i[1]+(i[1]/10),i[0]+(i[0]/10),str(i[2])+":00",size='10',ha='center')
+    #plt.text(i[1]+(i[1]/10),i[0]+(i[0]/10),str(i[2])+":00",size='10',ha='center')
     #plt.show()
     plt.savefig('figure.png')
